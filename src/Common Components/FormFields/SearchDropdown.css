@@ -1,0 +1,23 @@
+.search-dropdown-wrapper {
+  position: relative;
+}
+
+.floating-label {
+  position: absolute;
+  top: -7px;
+  z-index: 100;
+  left: 10px;
+  background-color: #ffffff;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: #9b9b9b;
+  transition: all 0.2s ease-out;
+}
+
+.search-dropdown-wrapper.has-value .floating-label,
+.search-dropdown-wrapper.is-focused .floating-label {
+  top: -20px;
+  left: 5px;
+  font-size: 10px;
+  color: #555555;
+}
